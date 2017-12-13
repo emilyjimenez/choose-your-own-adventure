@@ -1,0 +1,15 @@
+<form id="user-form">
+  <label>Name</label>
+  <input type="text" name="name" #userName>
+  <br>
+  <br>
+  <label>Favorite Animal</label>
+  <input type="text" name="favoriteAnimal" #userAnimal>
+  <br>
+  <br>
+  <label>Favorite Color</label>
+  <input type="text" name="favoriteColor" #userColor>
+  <br>
+  <br>
+  <button type="button" (click)="createUser(userName.value, userAnimal.value, userColor.value)" routerLink="story">Ready</button>
+</form>

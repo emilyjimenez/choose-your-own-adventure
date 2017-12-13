@@ -1,0 +1,7 @@
+<app-user-detail></app-user-detail>
+<h1>This is a progress scene</h1>
+<h2>{{storyToDisplay.time}}</h2>
+<p>{{storyToDisplay.description}}</p>
+<button (click)="progressStoryAgain(storyToDisplay.options[0])">{{storyToDisplay.optionNames[0]}}</button>
+<br>
+<button (click)="progressStoryAgain(storyToDisplay.options[1])">{{storyToDisplay.optionNames[1]}}</button>

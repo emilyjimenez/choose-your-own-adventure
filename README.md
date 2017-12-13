@@ -26,3 +26,12 @@ Before running the tests make sure you are serving the app via `ng serve`.
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+## Specs
+
+It should start a new game and the app should take in information from the user(name, favorite color, favorite animal) with a user's point level starting at zero.
+
+It should present scenarios to the user for them to make a decision (at least two decisions to choose from per scenario).
+
+
+It should always display a player's stats and tell them their final score at the end.
